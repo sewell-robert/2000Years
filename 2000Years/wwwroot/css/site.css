@@ -1,0 +1,61 @@
+﻿.fade-out {
+    animation: fadeOut ease-in-out 8s;
+    -webkit-animation: fadeOut ease-in-out 8s;
+    -moz-animation: fadeOut ease-in-out 8s;
+    -o-animation: fadeOut ease-in-out 8s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+div.hidden {
+    opacity: 0;
+}
+
+.blockquote-footer-style {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px black;
+}
